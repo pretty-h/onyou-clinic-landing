@@ -1,0 +1,41 @@
+# Environment variables and local secrets
+.env
+.env.*
+*.env
+*.env.*
+.npmrc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*
+service-account*.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+*.log
+*.tsbuildinfo
+
+# Local tools and deployment metadata
+.openai/
+.codex/
+.agents/
+.aws/
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*~

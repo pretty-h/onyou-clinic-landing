@@ -1,0 +1,1 @@
+{"name":"onyou-clinic-landing","version":"1.0.0","private":true,"scripts":{"dev":"node server.cjs","start":"node server.cjs","check":"node --check script.js && node --check server.cjs"}}
